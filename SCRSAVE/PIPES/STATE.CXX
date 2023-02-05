@@ -165,8 +165,8 @@ STATE::CalcTexRepFactors()
     //
     // We arbitrarily decide to repeat textures that are smaller than
     // 1/8th of screen width or height.
-
-    for( int i = 0; i < nTextures; i++ ) {
+    int i;
+    for( i = 0; i < nTextures; i++ ) {
         texRep[i].x = texRep[i].y = 1;
 
         if( (texFact.x = winSize.width / texture[i].width / 8.0f) >= 1.0f)
@@ -210,7 +210,8 @@ STATE::LoadTextureFiles( TEXFILE *pTexFile, int nTexFiles, TEX_RES *pTexRes )
     // Try to load the bmp or rgb file
 
     // i counts successfully loaded textures
-    for( int i = 0; nTexFiles; nTexFiles-- ) {
+    int i;
+    for( i = 0; nTexFiles; nTexFiles-- ) {
         if( ss_LoadTextureFile( &pTexFile[i], &texture[i] ) )  {
             // If texture object extension, set tex params here for each object
             if( ss_TextureObjectsEnabled() )
@@ -684,8 +685,8 @@ STATE::Draw(void *data)
     // Check each pipe's status
 
     DRAW_THREAD *pThread = drawThreads;
-
-    for( int i = 0; i < nDrawThreads; i++, pThread++  ) {
+    int i;
+    for( i = 0; i < nDrawThreads; i++, pThread++  ) {
         if( pThread->pPipe->IsStuck() ) {
             if( ++nPipesDrawn > maxPipesPerFrame ) {
                 // Reaching pipe saturation - kill this pipe thread
