@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TEXTURE.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="COLOR.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DIALOG.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FASTDIB.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MATERIAL.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MATH.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SSA8.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SSDIB.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SSIMAGE.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SCRNSAVE.CXX">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SSINIT.CXX">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SSUTIL.CXX">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SSWINDOW.CXX">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SSWPROC.CXX">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UTIL.CXX">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CLEAR.CXX">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DLGDRAW.CXX">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GLSCRNSV.CXX">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PALETTE.CXX">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SSWPROC.HXX">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UTIL.HXX">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLSCRNSV.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MATNAME.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SSCOMMON.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SSDEBUG.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TEXTURE.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CLEAR.HXX">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DLGDRAW.HXX">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLSCRNSV.HXX">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PALETTE.HXX">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SSCOMMON.HXX">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SSINTRNL.HXX">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SSUTIL.HXX">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SSWINDOW.HXX">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SSCOMMON.RC">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
