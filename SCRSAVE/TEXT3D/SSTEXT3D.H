@@ -14,6 +14,8 @@
 #include "dlgs.h"
 #include "sscommon.h"
 
+typedef unsigned char TUCHAR;
+
 #define PI_OVER_2 (PI/2.0f)
 #define PI_OVER_4 (PI/4.0f)
 
