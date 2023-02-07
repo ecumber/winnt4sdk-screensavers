@@ -10,3 +10,5 @@ output/
 *.ilk
 *.log
 *.recipe
+*.iobj
+*.ipdb
