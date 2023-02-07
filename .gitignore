@@ -1,2 +1,12 @@
 .vs/
 output/
+*.idb
+*.pdb
+*.scr
+*.obj
+*.exe
+*.tlog
+*.res
+*.ilk
+*.log
+*.recipe

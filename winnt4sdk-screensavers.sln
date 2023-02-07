@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PIPES", "SCRSAVE\PIPES\PIPE
 		{8DEDDE33-C58F-4675-87DB-24EAA3C7A41B} = {8DEDDE33-C58F-4675-87DB-24EAA3C7A41B}
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3DFO", "SCRSAVE\3DFO\3DFO.vcxproj", "{ACB8536D-D740-41DD-9AF7-279BEED764CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -59,6 +61,14 @@ Global
 		{7D1B479D-5357-47A4-9B86-758858DA9CF4}.Release|Win32.Build.0 = Release|Win32
 		{7D1B479D-5357-47A4-9B86-758858DA9CF4}.Release|x64.ActiveCfg = Release|x64
 		{7D1B479D-5357-47A4-9B86-758858DA9CF4}.Release|x64.Build.0 = Release|x64
+		{ACB8536D-D740-41DD-9AF7-279BEED764CC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ACB8536D-D740-41DD-9AF7-279BEED764CC}.Debug|Win32.Build.0 = Debug|Win32
+		{ACB8536D-D740-41DD-9AF7-279BEED764CC}.Debug|x64.ActiveCfg = Debug|x64
+		{ACB8536D-D740-41DD-9AF7-279BEED764CC}.Debug|x64.Build.0 = Debug|x64
+		{ACB8536D-D740-41DD-9AF7-279BEED764CC}.Release|Win32.ActiveCfg = Release|Win32
+		{ACB8536D-D740-41DD-9AF7-279BEED764CC}.Release|Win32.Build.0 = Release|Win32
+		{ACB8536D-D740-41DD-9AF7-279BEED764CC}.Release|x64.ActiveCfg = Release|x64
+		{ACB8536D-D740-41DD-9AF7-279BEED764CC}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
